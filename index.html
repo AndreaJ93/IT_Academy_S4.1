@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>S4. API</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="tiempo">Barcelona:<img id="imagenTiempo"><span id="tiempo"></span></div>
+        </div>
+    </header> 
+    <div id="backgroundX" class="background0">
+        <div class="container">
+            <div>
+                <h1>Preparat per riure?</h1>
+            </div>
+            <div id="chiste"></div>
+            <div class="buttons">
+                <div>
+                    <button class="icono" onclick="puntuacionChiste(1)">
+                        <img src="./iconos/icons8-triste-50.png">
+                        <div class="sombra"></div>
+                    </button>
+                    <button class="icono" onclick="puntuacionChiste(2)">
+                        <img src="./iconos/icons8-neutral-50.png">
+                        <div class="sombra"></div></button>
+                    <button class="icono" onclick="puntuacionChiste(3)">
+                        <img src="./iconos/icons8-sonriente-50.png">
+                        <div class="sombra"></div></button>
+                </div>
+                <div class="bigButton">
+                    <button class="button1" onclick="siguienteChiste()">
+                        Següent acudit
+                    </button>
+                    <div class="sombra2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="miniBackground" class="position3">
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

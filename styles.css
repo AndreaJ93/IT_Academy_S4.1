@@ -1,0 +1,223 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    margin: 0px;
+    padding: 10px;
+}
+
+.tiempo {
+    padding-left: 20px;
+    color: purple;
+}
+#tiempo {
+    display: inline-block;
+}
+.container {
+    width: 50%;
+    height: 395px;
+    margin: auto;
+    padding-top: 106px;
+    text-align: center;
+}
+
+#backgroundX {
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: bottom;
+    height: 87vh;
+}
+
+.background0 {
+    background-image: url(./fondos/magicpattern-blob-1706088585434.png);
+    background-size: 100% 114%;
+}
+
+.background1 {
+    background-image: url(./fondos/magicpattern-blob-1706088546940.png);
+    background-size: 87% 123%;
+}
+
+.background2 {
+    background-image: url(./fondos/magicpattern-blob-1706088554222.png);
+    background-size: 87% 106%;
+}
+
+.background3 {
+    background-image: url(./fondos/magicpattern-blob-1706088562093.png);
+    background-size: 101% 117%;
+}
+
+#chiste {
+    margin: 20px;
+    color: white;
+    font-size: 2vw;
+}
+
+h1 {
+    color: white;
+    font-size:5vw;
+    text-shadow: 2px 2px 2px black;
+}
+
+.button1 {
+    margin: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 3px solid black;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.button1:hover {
+    background-color: rgba(255, 213, 0, 0.34);
+    box-shadow: 5px 0px rgba(255, 255, 255, 0.374);
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.icono {
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.sombra{
+    background-color: rgb(255, 213, 0);
+    width: 45px;
+    height: 43px;
+    border-radius: 50%;
+    position: relative;
+    top: -46px;
+    right: -5px;
+    z-index: 1;
+}
+
+.icono:hover {
+    box-shadow: 7px 0px rgba(255, 255, 255, 0.374);
+}
+
+img {
+    position: relative;
+    z-index: 2;
+}
+
+.sombra2 {
+    background-color: rgb(255, 213, 0);
+    width: 145px;
+    height: 39px;
+    border-radius: 20px;
+    position: relative;
+    top: -46px;
+    right: -52px;
+    z-index: 1;
+}
+
+.bigButton {
+    width: 233px;
+    height: 41px;
+    position: relative;
+    margin: auto;
+}
+
+.position1 {
+    background-image: url(./fondos/magicpattern-blob-1706088590485.png);
+    top: 100px;
+    right: 63px;
+    background-size: contain;
+    position: absolute;
+    z-index: 3;
+    height: 70px;
+    width: 70px;
+}
+
+.position2 {
+    background-image: url(./fondos/magicpattern-blob-1706088587164.png);
+    position: absolute;
+    background-size: contain;
+    top: 544px;
+    right: 41px;
+    height: 70px;
+    width: 70px;
+    z-index: 3;
+}
+
+.position3 {
+    background-image: url(./fondos/magicpattern-blob-1706088590485.png);
+    position: absolute;
+    background-size: contain;
+    top: 545px;
+    left: 48px;
+    height: 70px;
+    width: 70px;
+    z-index: 3;
+}
+
+#imagenTiempo {
+    position: relative;
+    top: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+@media (min-width: 780px) { 
+    h1 {
+        font-size:4vw;
+    }
+
+    .position1 {
+        height: 90px;
+        width: 90px;
+    }
+    
+    .position2 {
+        height: 90px;
+        width: 90px;
+    }
+    
+    .position3 {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+@media (min-width: 1020px) { 
+    h1 {
+        font-size:3vw;
+    }
+    #chiste {
+        font-size:1vw;
+    }
+    .position1 {
+        height: 120px;
+        width: 120px;
+    }
+    
+    .position2 {
+        height: 120px;
+        width: 120px;
+    }
+    
+    .position3 {
+        height: 120px;
+        width: 120px;
+    }
+}
+
